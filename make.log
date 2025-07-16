@@ -1,0 +1,4 @@
+# Remove the linker executable and backup files
+rm -f linker *~
+# Use g++ to compile with debugging info
+g++ -g linker.cpp -o linker
